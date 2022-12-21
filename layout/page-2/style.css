@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*kapsayıcı*/
+body{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    background-color: bisque;
+    text-transform: uppercase;
+}
+
+/*kapsayıcı çocuklarıu*/
+header,
+main,
+footer{
+    margin: 2.5rem;
+    padding: 2.5rem;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+}
+
+/*kapsayıcının çocuğu olan çocuğu*/
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 3rem;
+}
+.right{background-color: beige; padding: 2rem;}
+.left {background-color: beige; padding: 2rem;}
