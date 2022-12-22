@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: black;
+}
+
+/*ayrım--------------*/
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 6rem;
+    background-color: gray;
+}
+
+div{
+    background-color: black;
+    color: chartreuse;
+    padding: 2rem;
+    border-radius: 25px;
+    font-size: 30px;
+}
